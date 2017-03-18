@@ -1,17 +1,21 @@
-{% set version = "5.1.0" %}
+{%set name = "elasticsearch-dsl" %}
+{%set version = "5.1.0" %}
+{%set compress_type = "tar.gz" %}
+{%set hash_type = "sha256" %}
+{%set hash_val = "5d3800d75240e99bbb0b5b16041e88a65cc8f7ddb34b6041d515a2d76df4352b" %}
+{%set build_num = "0" %}
 
 package:
-  name: elasticsearch-dsl
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: elasticsearch-dsl-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/e/elasticsearch-dsl/elasticsearch-dsl-{{ version }}.tar.gz
-  sha256: 5d3800d75240e99bbb0b5b16041e88a65cc8f7ddb34b6041d515a2d76df4352b
+  fn: {{ name }}-{{ version }}.{{ compress_type }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
+  {{ hash_type }}: {{ hash_val }}
 
 build:
-
-  number: 0
+  number: {{ build_num }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -23,7 +27,7 @@ requirements:
     - python
     - six
     - python-dateutil
-    - elasticsearch >=2.0.0,<3.0.0
+    - elasticsearch >=5.0.0,<6.0.0
 
 test:
   imports:
@@ -32,7 +36,11 @@ test:
 about:
   home: https://github.com/elasticsearch/elasticsearch-dsl-py
   license: Apache 2.0
+  license_family: Apache
+  license_file: LICENSE
   summary: 'Higher-level Python client for Elasticsearch'
+  dev_url: https://github.com/elasticsearch/elasticsearch-dsl-py
+  doc_url: https://elasticsearch-dsl.readthedocs.io/en/latest/
 
 extra:
   recipe-maintainers:
