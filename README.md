@@ -11,6 +11,18 @@ Summary: Higher-level Python client for Elasticsearch
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/elasticsearch-dsl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/elasticsearch-dsl-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/elasticsearch-dsl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/elasticsearch-dsl-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/elasticsearch-dsl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/elasticsearch-dsl-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-dsl/badges/version.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-dsl/badges/downloads.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl)
+
 Installing elasticsearch-dsl
 ============================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `elasticsearch-dsl` available on y
 ```
 conda search elasticsearch-dsl --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/elasticsearch-dsl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/elasticsearch-dsl-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/elasticsearch-dsl-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/elasticsearch-dsl-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/elasticsearch-dsl-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/elasticsearch-dsl-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-dsl/badges/version.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-dsl/badges/downloads.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl)
 
 
 Updating elasticsearch-dsl-feedstock
