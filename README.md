@@ -14,12 +14,15 @@ Summary: Higher-level Python client for Elasticsearch
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/elasticsearch-dsl-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/elasticsearch-dsl-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/elasticsearch-dsl-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/elasticsearch-dsl-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-dsl/badges/version.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/elasticsearch-dsl/badges/downloads.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-elasticsearch--dsl-green.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/elasticsearch-dsl.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/elasticsearch-dsl.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/elasticsearch-dsl.svg)](https://anaconda.org/conda-forge/elasticsearch-dsl) |
 
 Installing elasticsearch-dsl
 ============================
