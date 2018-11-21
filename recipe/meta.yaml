@@ -1,8 +1,8 @@
 {% set name = "elasticsearch-dsl" %}
-{% set version = "6.2.1" %}
+{% set version = "6.3.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "d0a5137caf43c2ecb69f7a867d52d40e557b3ba16c361dff74a07affe7101c38" %}
+{% set hash = "ab39e7aa9654e0ba65db6ac7586a635ddd2b216477474ba561ba86a2995c3eeb" %}
 
 package:
   name: {{ name|lower }}
