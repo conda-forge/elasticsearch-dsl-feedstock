@@ -1,8 +1,8 @@
 {% set name = "elasticsearch-dsl" %}
-{% set version = "6.3.0" %}
+{% set version = "5.4.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "ab39e7aa9654e0ba65db6ac7586a635ddd2b216477474ba561ba86a2995c3eeb" %}
+{% set hash = "cbef6467085d7debc870bc450d996c7ba5b8822eb86a6033bba09134ffb01ba8" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
     - python
     - six
     - python-dateutil
-    - elasticsearch >=6.0.0,<7.0.0
+    - elasticsearch >=5.4.0,<6.0.0
     - ipaddress  # [py<33]
 
 test:
@@ -44,3 +44,4 @@ about:
 extra:
   recipe-maintainers:
     - pmlandwehr
+    - mariusvniekerk
