@@ -25,7 +25,7 @@ requirements:
     - python
     - six
     - python-dateutil
-    - elasticsearch >=6.0.0,<7.0.0
+    - elasticsearch >=7.0.0,<8.0.0
     - ipaddress  # [py<33]
 
 test:
