@@ -1,8 +1,8 @@
 {% set name = "elasticsearch-dsl" %}
-{% set version = "6.3.1" %}
+{% set version = "7.0.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "5f80b3b4a6e61db5d273bc57c32a80b2ddbc555afcc122c62c20440c355008be" %}
+{% set hash = "2aedc2a4dbba9870249a57d1798ec29e44404619bded66ac920f5d6a1cbb6f22" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash }}
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
@@ -25,7 +25,7 @@ requirements:
     - python
     - six
     - python-dateutil
-    - elasticsearch >=6.0.0,<7.0.0
+    - elasticsearch >=7.0.0,<8.0.0
     - ipaddress  # [py<33]
 
 test:
