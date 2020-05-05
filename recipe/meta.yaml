@@ -1,4 +1,4 @@
-{% set version = "7.1.0" %}
+{% set version = "7.2.0" %}
 
 package:
   name: elasticsearch-dsl
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/elasticsearch-dsl/elasticsearch-dsl-{{ version }}.tar.gz
-  sha256: 3f860e0304d703f63b458fea3782f09a823ab07da7ee84ae4bff1aa63e22aedb
+  sha256: 4015c0d25a0a5df05cf50fe7f3464234c5b97f050c85697399d96d46b30e09a7
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
