@@ -1,4 +1,4 @@
-{% set version = "7.4.1" %}
+{% set version = "8.9.0" %}
 
 package:
   name: elasticsearch-dsl
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/elasticsearch-dsl/elasticsearch-dsl-{{ version }}.tar.gz
-  sha256: 07ee9c87dc28cc3cae2daa19401e1e18a172174ad9e5ca67938f752e3902a1d5
+  sha256: 66410adf881f02b8a032e8a5b2a3ee093fdeede4b814fbf04c0f6ce0499b7472
 
 build:
   number: 0
@@ -18,10 +18,8 @@ requirements:
     - pip
   run:
     - python
-    - six
     - python-dateutil
-    - elasticsearch >=7.0.0,<8.0.0
-    - ipaddress  # [py<33]
+    - elasticsearch >=8.0.0,<9.0.0
 
 test:
   requires:
