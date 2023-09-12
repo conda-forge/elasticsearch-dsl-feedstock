@@ -343,6 +343,5 @@ Feedstock Maintainers
 
 * [@ezimuel](https://github.com/ezimuel/)
 * [@joshmock](https://github.com/joshmock/)
-* [@pmlandwehr](https://github.com/pmlandwehr/)
 * [@pquentin](https://github.com/pquentin/)
 
