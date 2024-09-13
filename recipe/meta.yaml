@@ -1,4 +1,4 @@
-{% set version = "8.15.2" %}
+{% set version = "8.15.3" %}
 
 package:
   name: elasticsearch-dsl
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/elasticsearch_dsl/elasticsearch_dsl-{{ version }}.tar.gz
-  sha256: 3a8ea7791c57710b5072045ab6b87ac90db6e2a7e6f6d29fea30f26c9536b182
+  sha256: 4005fa1abef5c0adc5266896c3177d0e98ff5ac49603c36dda9058d616f79257
 
 build:
   number: 0
