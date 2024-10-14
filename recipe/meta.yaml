@@ -9,13 +9,14 @@ source:
   sha256: bb156cd6240576359440dca4b62183f09e19621e6bb7cc768dfcf8855e26f0a9
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - python
     - pip
+    - setuptools
   run:
     - python
     - typing-extensions
